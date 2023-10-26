@@ -1,4 +1,7 @@
-.container {
-  background-image: url('https://images.saymedia-content.com/.image/t_share/MjAxNDI0MjM5OTYwNTMyOTY1/phoenix-bird.jpg');
-  background-size: cover;
+body{
+  background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/27/bc/6d/27bc6df3-4281-cd90-86da-1c00221078df/source/512x512bb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
 }
