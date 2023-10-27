@@ -16,3 +16,12 @@ body{
   color: #fff; /* Text color */
   overflow-y: auto; /* Enable vertical scrolling when content overflows */
 }
+
+.topbar {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+}
