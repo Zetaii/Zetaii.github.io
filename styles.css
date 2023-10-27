@@ -5,3 +5,14 @@ body{
   background-attachment: fixed;
   text-align: center;
 }
+
+.sidebar {
+  width: 250px; /* Set the desired width of the sidebar */
+  height: 100%; /* Make it full height */
+  position: fixed; /* Fixed position to keep it visible while scrolling */
+  top: 0;
+  left: 0;
+  background-color: #333; /* Sidebar background color */
+  color: #fff; /* Text color */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
