@@ -79,3 +79,152 @@ body {
   background: #fff;
   color: #162938;
 }
+.wrapper .form-box {
+  width: 100%;
+  padding: 40px;
+}
+
+.wrapper .form-box.register {
+  position: absolute;
+  transform: translateX(400px);
+}
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 440px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: transparent;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  transition: transform 0.5s ease, height 0.2s ease;
+  transform: scale(0);
+  overflow: hidden;
+}
+
+.wrapper.active-popup {
+  transform: scale(1);
+}
+
+.wrapper.active {
+  height: 520px;
+}
+
+.wrapper .form-box.login {
+  transition: transform .18s ease;
+  transform: translateX(0px);
+}
+
+.wrapper.active .form-box.login {
+  transition: none;
+  transform: translateX(-400px);
+}
+
+
+.wrapper .form-box.register {
+  position: absolute;
+  transition: none;
+  transform: translateX(400px);
+}
+
+.wrapper.active .form-box.register {
+  transition: transform 0.2s ease;
+  transform: translateX(0px);
+  
+}
+
+.wrapper .icon-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  font-size: 2em;
+  background: rgba(255, 128, 0, 0.792);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.form-box h2 {
+  font-size: 2em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.input-box {
+  position: relative;
+  width: 120%;
+  height:50px;
+  border-bottom: 2px solid black;
+  margin:50px -35px;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+  top: -5px;
+}
+
+.input-box input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  height: 50px;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  line-height: 60px;
+}
+
+.remember-forgot {
+  font-size: 0.9em;
+  font-weight: 800;
+  margin: -40px -25px 15px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.remember-forgot a {
+  color: orange; 
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  background-color: rgba(255, 128, 0, 0.792);
+  height: 45px;
+  border-radius: 6px;
+  color: white;
+  font-size: 1em;
+  margin-top: 15px; 
+  cursor: pointer;
+} 
+
+.login-register p a {
+  color: orange;
+  text-decoration: none;
+  margin: 25px 0 10px;  
+  font-weight: 600px;
+}
