@@ -20,7 +20,7 @@ header {
   z-index: 99;
 }
 
-body {
+body {      
   min-height: 100vh;
   background: url(phoenix.png) no-repeat;
   background-size: contain;
@@ -29,7 +29,7 @@ body {
 
 .logo {
   font-size: 2em;
-  color: #fff;
+  color: #ffffff;
   user-select: none;
   text-decoration: none;
 }
