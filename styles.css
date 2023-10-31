@@ -53,6 +53,7 @@ body {
   color: #fff;
   font-weight: 500;
   margin-left: 40px;
+  transition: 0.5s;
 }
 
 .navigation .btnLogin-popup:hover {
