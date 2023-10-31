@@ -1,26 +1,63 @@
-body{
-  background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/27/bc/6d/27bc6df3-4281-cd90-86da-1c00221078df/source/512x512bb.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  text-align: center;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-.sidebar {
-  width: 250px; /* Set the desired width of the sidebar */
-  height: 100%; /* Make it full height */
-  position: fixed; /* Fixed position to keep it visible while scrolling */
+header {
+  position:fixed;
   top: 0;
   left: 0;
-  background-color: #333; /* Sidebar background color */
-  color: #fff; /* Text color */
-  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  width: 100%;
+  padding: 20px 100px;
+  background: rgb(107, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
 }
 
-.banner{
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), url(https://www.wyasd.org/cms/lib/PA50010857/Centricity/Domain/226/school-clip-art-85.jpg));
-  background-size: cover;
+body {
+  min-height: 100vh;
+  background: url(phoenix.png) no-repeat;
+  background-size: contain;
   background-position: center;
+}
+
+.logo {
+  font-size: 2em;
+  color: #fff;
+  user-select: none;
+  text-decoration: none;
+}
+
+.navigation a{
+  position: relative;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navigation .btnLogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navigation .btnLogin-popup:hover {
+  background: #fff;
+  color: #162938;
 }
