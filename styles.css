@@ -11,7 +11,6 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background: rgb(107, 0, 0);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,9 +18,11 @@ header {
 }
 
 body {      
+  display: flex;
+  justify-content: center;
   min-height: 100vh;
-  background: url(phoenix.png) no-repeat;
-  background-size: contain;
+  background: url('phoenix2.jpg') no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
@@ -30,6 +31,7 @@ body {
   color: #ffffff;
   user-select: none;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .navigation a{
@@ -50,7 +52,7 @@ body {
   height: 3px;
   background-color: #fff;
   border-radius: 5px;
-  transition:0.5s;
+  transition: transform 0.5s;
   transform: scaleX(0);
 }
 
